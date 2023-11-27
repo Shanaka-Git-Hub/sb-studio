@@ -1,0 +1,14 @@
+.slid-one{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/p1.jpg');
+    background-attachment:fixed;
+    background-size: cover;
+}
+.slid-one-dark{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 12, 12, 0.5);
+}

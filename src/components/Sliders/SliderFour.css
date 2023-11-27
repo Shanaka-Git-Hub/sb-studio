@@ -1,0 +1,7 @@
+.slid-four{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/p4.jpg');
+    background-attachment:fixed;
+    background-size: cover;
+}
