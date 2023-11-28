@@ -12,3 +12,9 @@
     height: 100%;
     background-color: rgba(12, 12, 12, 0.5);
 }
+@media screen and (max-width:640px) {
+    .slid-one{
+        background-position: center;
+    }
+    
+}

@@ -5,3 +5,9 @@
     background-attachment:fixed;
     background-size: cover;
 }
+@media screen and (max-width:640px) {
+    .slid-five{
+        background-position: center;
+    }
+    
+}
