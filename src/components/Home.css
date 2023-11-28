@@ -1,0 +1,14 @@
+.contact-icon{
+    width: 100px;
+    height:100px;
+    background-color: aqua;
+    border-radius: 100%;
+    position:sticky;
+    top:80%;
+    left:90%;
+    z-index: 5;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
