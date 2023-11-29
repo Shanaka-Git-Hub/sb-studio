@@ -4,10 +4,11 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import './NavBar.css'
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary nav-bar-outer">
       <Container fluid>
         <Navbar.Brand href="#" className='fw-bold'>SB Studio</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

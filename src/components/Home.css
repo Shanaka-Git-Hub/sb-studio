@@ -13,8 +13,18 @@
     justify-content: center;
     border: solid 8px white;
     margin-bottom: -100px;
+    animation-name: contact;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 .contact-icon a{
     text-decoration: none;
     color: white;
+}
+@keyframes contact {
+    0%{border: solid 10px red;}
+    25%{border: solid 10px blue;}
+    50%{border: solid 10px yellow;}
+    75%{border: solid 10px green;}
+    100%{border: solid 10px cyan;}
 }
